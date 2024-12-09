@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-page {
+  text-align: center;
+  background-color: rgb(143, 143, 142);
+}
+
+.header {
+  background-color: #333;
+  color: rgb(168, 168, 168);
+  padding: 1rem;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+.features, .about, .contact {
+  padding: 2rem;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
